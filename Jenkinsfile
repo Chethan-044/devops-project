@@ -15,6 +15,7 @@ pipeline {
         stage("Checkout from SCM"){
                 steps {
                     git branch: 'main', url: 'https://github.com/Chethan-044/devops-project.git'
+                    echo 'cloned!!'
                 }
         }
 
